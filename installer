@@ -175,7 +175,7 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
 
 == amd64 ==
 
- * Kernel-Version: 4.4.0-21-generic
+ * Kernel-Version: 4.4.0-31-generic
  * /^.*-firmware-.*-di/ [amd64]
  * /^.*-modules-.*-di/ [amd64]
  * kernel-signed-image-${Kernel-Version}-di [amd64]
@@ -183,14 +183,14 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
 
 == armel ==
 
- * Kernel-Version: 4.4.0-21-generic
+ * Kernel-Version: 4.4.0-31-generic
  * /^.*-firmware-.*-di/ [armel]
  * /^.*-modules-.*-di/ [armel]
  * linux-lts-xenial-udebs-generic [armel]
 
 == armhf ==
 
- * Kernel-Version: 4.4.0-21-generic 4.4.0-21-generic-lpae
+ * Kernel-Version: 4.4.0-31-generic 4.4.0-31-generic-lpae
  * /^.*-firmware-.*-di/ [armhf]
  * /^.*-modules-.*-di/ [armhf]
  * linux-lts-xenial-udebs-generic [armhf]
@@ -198,14 +198,14 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
 
 == i386 ==
 
- * Kernel-Version: 4.4.0-21-generic
+ * Kernel-Version: 4.4.0-31-generic
  * /^.*-firmware-.*-di/ [i386]
  * /^.*-modules-.*-di/ [i386]
  * linux-lts-xenial-udebs-generic [i386]
 
 == powerpc ==
 
- * Kernel-Version: 4.4.0-21-powerpc-smp 4.4.0-21-powerpc64-smp 4.4.0-21-powerpc-e500mc
+ * Kernel-Version: 4.4.0-31-powerpc-smp 4.4.0-31-powerpc64-smp 4.4.0-31-powerpc-e500mc
  * /^.*-firmware-.*-di/ [powerpc]
  * /^.*-modules-.*-di/ [powerpc]
  * linux-lts-xenial-udebs-powerpc-smp [powerpc]
@@ -214,7 +214,7 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
 
 == ppc64el ==
 
- * Kernel-Version: 4.4.0-21-generic
+ * Kernel-Version: 4.4.0-31-generic
  * /^.*-firmware-.*-di/ [ppc64el]
  * /^.*-modules-.*-di/ [ppc64el]
  * linux-lts-xenial-udebs-generic [ppc64el]
