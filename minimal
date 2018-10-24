@@ -41,6 +41,7 @@ Programs and packages necessary for both the proper functionality of the system 
  * python3           # explicitly seeded, despite lsb-release also pulling it it
  * rsyslog
  * sudo              # LaMontJones
+ * ubuntu-advantage-tools # needs to be on the system by default for ESM
  * ubuntu-keyring     # for authenticated package downloads
  * udev
  * ureadahead        # get things into cache as quickly as possible during boot
