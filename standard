@@ -71,9 +71,7 @@ These are used for debugging problems or examining the system.
  * (friendly-recovery)    # give a nice menu in recovery mode
  * (command-not-found)
  * (update-manager-core)  # needed for server based release upgrades
- * (apparmor) # load AppArmor policies
  * (plymouth) # splash screen, and boot-time questions
- * (plymouth-theme-ubuntu-text)
 
 == Network ==
 
@@ -84,7 +82,6 @@ These are used for debugging problems or examining the system.
 
 = Other =
 
- * popularity-contest
- * ubuntu-standard # metapackage for everything here
+ * linuxbean-standard # metapackage for everything here
  * (apt-transport-https) # James Westby, enables access to private PPAs among other things
  * language-selector-common # helps installer to work out which language-support packages to install
