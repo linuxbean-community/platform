@@ -16,13 +16,6 @@ Power management:
 
  * (acpi-support)
 
-Bluetooth:
-TODO not for Xubuntu
-
- * (bluez) # base for bluetooth support
- * (bluez-alsa)
- * (bluez-cups)  # allow connecting to bluetooth printers from CUPS
-
 == armel ==
 
  * apmd [armel]
@@ -47,34 +40,17 @@ Basic network services and Windows integration.
  * wireless-tools
  * rfkill              # No longer using the copy from wireless-tools (LP: #715309)
  * wpasupplicant  # ScottJamesRemnant
- * (libnss-mdns)       # IPv4 link-local DNS support
  * ca-certificates     # common SSL certificates
 
 These packages help with system integration
 
  * libsasl2-modules    # allows integration with MTA and login system
- * (avahi-daemon)      # some people do not like it, and it is not essential
 
 = Printing =
 
 Printing and printer configuration is a real weak spot in Debian, and in Linux in general. We will need to stay at the front of the curve here.
 
- * (cups)                     # our preferred printer management infrastructure
- * (cups-bsd)                 # gives us lpc, lpq, lpr, lprm
- * (cups-client)              # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
- * foomatic-db-compressed-ppds  # the foomatic printer driver database
- * (cups-filters)
- * openprinting-ppds            # Most common drivers we want in desktop; less common are in o-p-extra
- * printer-driver-pnm2ppa       # several ppds require this
  * ghostscript-x
- * (hplip)     			# support for HP all-in-one printers
- * (printer-driver-min12xxw)	# support for KonicaMinolta PagePro 1200W, 1300W printers
- * (printer-driver-foo2zjs)	# support for printing to ZjStream-based printers
- * (printer-driver-splix)	# support for Samsung lasers
- * (printer-driver-pxljr)	# support for HP Color lasers
- * (printer-driver-c2esp)       # support for Kodak injket printers
- * (printer-driver-ptouch)      # support for Brother P-touch printers
- * (printer-driver-sag-gdi)     # support for Rico Aficio SPxxxx printers
 
 = GUI infrastructure =
 
@@ -89,19 +65,7 @@ Packages used for X preconfiguration are just Recommends; removing them after in
 Fonts:
 
  * fonts-dejavu-core
- * fonts-freefont-ttf
- * (fonts-kacst-one)
  * (fonts-takao-pgothic)
- * (fonts-khmeros-core)
- * (ttf-indic-fonts-core)
- * (ttf-punjabi-fonts)
- * (fonts-thai-tlwg)
- * (fonts-lao)
- * (ttf-ubuntu-font-family)
- * (fonts-sil-padauk)
- * (fonts-tibetan-machine)
- * (fonts-sil-abyssinica)
- * (fonts-lklug-sinhala)
 
 = Debugging and Diagnostics =
 
@@ -111,7 +75,6 @@ Fonts:
 
  * anacron # generally appropriate for desktops
  * libxp6 # required for some third party apps. See #21953
- * (kerneloops-daemon) # watch for and allow reporting of kernel problems
  * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
  * ubuntu-extras-keyring # archive signing key for extras.ubuntu.com
  * libpam-systemd # logind, cross desktop compatibility
